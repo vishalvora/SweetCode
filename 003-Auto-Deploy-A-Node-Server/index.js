@@ -10,5 +10,5 @@ app.get('/', function (req, res) {
 
 // Listen to port
 app.listen(app.get('port'), function () {
-  console.log('App is listening on port ' + app.get('port'));
+  console.log('new App is listening on port ' + app.get('port'));
 });
